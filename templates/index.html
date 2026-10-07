@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Chuvve 🐀</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+
+<body>
+
+    <div class="scene">
+
+        <div class="glow"></div>
+
+        <div class="blob one"></div>
+        <div class="blob two"></div>
+        <div class="blob three"></div>
+
+        <div class="sparkle one">✦</div>
+        <div class="sparkle two">✧</div>
+        <div class="sparkle three">✦</div>
+        <div class="sparkle four">✧</div>
+        <div class="sparkle five">✦</div>
+
+        <div class="floating-heart one">♡</div>
+        <div class="floating-heart two">♡</div>
+        <div class="floating-heart three">♡</div>
+
+
+        <!-- =========================
+             BIRTHDAY
+        ========================== -->
+
+        <div class="content" id="birthdayContent">
+
+            <div class="greeting">
+                Happy Birthday
+            </div>
+
+            <div class="name">
+                <span>Chuvve</span>
+                <span class="rat">🐀</span>
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             SURPRISE
+        ========================== -->
+
+        <div class="content surprise-content" id="surpriseContent">
+
+            <div class="small-line">
+                heyy...
+            </div>
+
+            <div class="surprise-main">
+                I got something for you
+            </div>
+
+            <div class="surprise-emoji">
+                👀
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             ENVELOPE
+        ========================== -->
+
+        <div class="content envelope-content" id="envelopeContent">
+
+            <div class="envelope-wrapper" id="envelope">
+
+                <div class="paper" id="paper">
+
+                    <div class="paper-line"></div>
+                    <div class="paper-line short"></div>
+                    <div class="paper-line shorter"></div>
+
+                </div>
+
+                <div class="envelope-body">
+
+                    <div class="envelope-left"></div>
+
+                    <div class="envelope-right"></div>
+
+                    <div class="envelope-bottom"></div>
+
+                    <div class="heart-seal">
+                        ♡
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             OPEN LETTER
+        ========================== -->
+
+        <div class="letter-screen" id="letterScreen">
+
+            <div class="opened-letter" id="openedLetter">
+
+                <div class="letter-decoration top-left">
+                    ♡
+                </div>
+
+                <div class="letter-decoration top-right">
+                    ✦
+                </div>
+
+                <div class="letter-decoration bottom-left">
+                    ✧
+                </div>
+
+                <div class="letter-decoration bottom-right">
+                    ♡
+                </div>
+
+
+                <div class="letter-header">
+                    a little note for you
+                </div>
+
+
+                <div class="letter-divider">
+                    <span>♡</span>
+                </div>
+
+
+                <div class="opened-letter-paper">
+
+                    <div class="letter-text">Happy birthday to my favourite introvert! 😂❤️. You may not talk a lot, but somehow when you do, you always make it worth listening to. I’m genuinely so lucky to have you in my life, and I’m really grateful for all the little conversations, laughs, memories, and moments we’ve shared. 🫶🏻🫂 You’re such a sweet and special person, and I hope this year brings you all the happiness, peace, and love you deserve. Stay the same adorable, slightly antisocial, amazing person you are. 😂💗Happy birthday ammu! Love youuu! 🫶🏻🎂🖤</div>
+
+                </div>
+
+
+                <div class="letter-ending">
+                    ♡
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script
+        src="{{ url_for('static', filename='script.js') }}"
+    ></script>
+
+</body>
+
+</html>
